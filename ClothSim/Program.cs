@@ -118,7 +118,7 @@ Middle Click - Pin Objects
 
 
             ImGui.SliderFloat("Dampening", ref Body.dampening, 0, 1);
-            ImGui.SliderFloat("Stretchiness", ref DistanceConstraint.stretchiness, 0, 5);
+            ImGui.SliderFloat("Stretchiness", ref DistanceConstraint.stretchiness, 0, 1);
 
             ImGui.Separator();
             ImGui.Text("Controls:");
